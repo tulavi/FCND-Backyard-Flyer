@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import csv
 import pandas as pd
 
-df = pd.read_csv('Local Velocity.csv', sep=',', header=None)
-df2 = pd.read_csv('Local Velocity err0.3.csv', sep=',', header=None)
+df = pd.read_csv('Local_pos_err_0.1.csv', sep=',', header=None)
+df2 = pd.read_csv('Local_pos_err_0.3.csv', sep=',', header=None)
 
 mpl.rcParams['legend.fontsize'] = 10
 
