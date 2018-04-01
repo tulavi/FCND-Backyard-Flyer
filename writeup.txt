@@ -1,0 +1,4 @@
+> In addition to backyard_flyer.py, I have also added 3D_plot.py that plots logged local position data into a 3D flight trajectory using matplotlib
+> The flight trajectory depends on the transition conditions between a waypoint to the next. Decreasing the allowable position error allows the drone to stabilize to a particular waypoint before the cmd_position is executed for the next waypoint to give a cleaner flight trajectory as seen in 'Flight trajectory - 2.png'
+> 'Flight trajectory - 1.png' shows the flight trajectory with the chosen thresholds in the final implementation of backyard_flyer.py
+> I did not try to optimize the cmd_position() function, which in my opinion can be tuned to prevent overshoot and decay as can be seen in the flight trajectory in 'Flight trajectory - 1.png'
